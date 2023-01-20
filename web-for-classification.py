@@ -3,8 +3,7 @@ import streamlit as st
 from PIL import Image
 from tensorflow.keras.applications import EfficientNetB0
 from tensorflow.keras.preprocessing import image
-from tensorflow.keras.applications.efficientnet import preprocess_input
-from tensorflow.keras.applications.efficientnet import decode_predictions
+from tensorflow.keras.applications.efficientnet import preprocess_input, decode_predictions
 import numpy as np
 
 def load_model():
