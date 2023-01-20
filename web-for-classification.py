@@ -40,4 +40,4 @@ if result:
     x = preprocess_image(img)
     preds = model.predict(x)
     st.write("результати розпізнавання")
-    st.write(print_predictions(preds))
+    print_predictions(preds)
